@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<header>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-main{
+	height:210px;
+	width:100%;
+	position:relative;
+	
+}
+.first-triangle{
+	width: 100%;
+    background: #e41a82;
+    position: absolute;
+    height: 100%;
+	border: 1px solid #cc1774;
+}
+	.second-triangle{
+	position: absolute;
+    right: -45px;
+    top: -87px;
+    width: 0;
+    height: 0;
+    border-top: 299px solid transparent;
+    border-left: 296px solid #cc1774;
+    border-bottom: 1px solid transparent;
+	transform: rotate(270deg);
+    -ms-transform:rotate(270deg); /* IE 9 */
+    -moz-transform:rotate(270deg); /* Firefox */
+    -webkit-transform:rotate(270deg); /* Safari and Chrome */
+    -o-transform:rotate(270deg); /* Opera */
+	}
+	.text-content{
+	position: absolute;
+    bottom: 10px;
+    color: #fff;
+    margin: 24px;
+    font-family: arial;
+	}
+</style>
+</header>
+<body>
+<div class='header-main'>
+<div class="first-triangle"></div>
+<div class="second-triangle"></div>
+<div class="text-content">
+<h2>Enter Your T-Mobile ID Credentials to SignUp for T-Mobile Money</h2>
+</div>
+</div>
+</body>
+</html>
